@@ -49,6 +49,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" >
 
+
+
                 <Button
                     android:id="@+id/suma"
                     style="?android:attr/buttonBarStyle"
@@ -67,6 +69,15 @@
                     android:layout_margin="10dp"
                     android:onClick="Rests"
                     android:text="@string/menos"
+                    android:textSize="40sp" />
+                <Button
+                    android:id="@+id/CLEAR"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="Rests"
+                    android:text="@string/Borrar"
                     android:textSize="40sp" />
 
             </TableRow>
