@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
     public  void multi(View view){
         Integer total = Integer.parseInt(num1.getText().toString())* Integer.parseInt(num2.getText().toString());
         Respuesta.setText(total+"");
+            
 
     }
     public  void div(View view){
