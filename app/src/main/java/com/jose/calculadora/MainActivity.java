@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
 
@@ -39,21 +40,25 @@ public class MainActivity extends AppCompatActivity {
 
 
     public  void suma(View view){
+        Toast.makeText(this, "Presionaste el boton de suma", Toast.LENGTH_SHORT).show();
         Integer total = Integer.parseInt(num1.getText().toString())+ Integer.parseInt(num2.getText().toString());
         Respuesta.setText(total+"");
 
     }
     public  void Rests(View view){
+        Toast.makeText(this, "Presionaste el botn de resta", Toast.LENGTH_SHORT).show();
         Integer total = Integer.parseInt(num1.getText().toString())- Integer.parseInt(num2.getText().toString());
         Respuesta.setText(total+"");
 
     }
     public  void multi(View view){
+        Toast.makeText(this, "Presionaste el boton d multiplicacion", Toast.LENGTH_SHORT).show();
         Integer total = Integer.parseInt(num1.getText().toString())* Integer.parseInt(num2.getText().toString());
         Respuesta.setText(total+"");
 
     }
     public  void div(View view){
+        Toast.makeText(this, "Presionaste el boton de division", Toast.LENGTH_SHORT).show();
         Integer total = Integer.parseInt(num1.getText().toString())/ Integer.parseInt(num2.getText().toString());
         Respuesta.setText(total+"");
 
