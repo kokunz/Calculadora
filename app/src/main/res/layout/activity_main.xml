@@ -14,7 +14,6 @@
         android:gravity="center">
 
         <TextView
-
             android:id="@+id/respuesta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,25 +51,6 @@
 
 
                 <Button
-                    android:id="@+id/suma"
-                    style="?android:attr/buttonBarStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:onClick="suma"
-                    android:text="@string/_mas"
-                    android:textSize="40sp" />
-
-                <Button
-                    android:id="@+id/resta"
-                    style="?android:attr/buttonBarStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:onClick="Rests"
-                    android:text="@string/menos"
-                    android:textSize="40sp" />
-                <Button
                     android:id="@+id/CLEAR"
                     style="?android:attr/buttonBarStyle"
                     android:layout_width="match_parent"
@@ -78,22 +58,6 @@
                     android:layout_margin="10dp"
                     android:onClick="Rests"
                     android:text="@string/Borrar"
-                    android:textSize="40sp" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <Button
-                    android:id="@+id/multiplicacion"
-                    style="?android:attr/buttonBarStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:onClick="multi"
-                    android:text="@string/multi"
                     android:textSize="40sp" />
 
                 <Button
@@ -105,7 +69,147 @@
                     android:onClick="div"
                     android:text="@string/divi"
                     android:textSize="40sp" />
+
             </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/numero_7"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="multi"
+                    android:text="@string/num_7"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/numero_8"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="div"
+                    android:text="@string/num_8"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/numero_9"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="div"
+                    android:text="@string/num_9"
+                    android:textSize="40sp" />
+                <Button
+                    android:id="@+id/multiplicacion"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="multi"
+                    android:text="@string/multi"
+                    android:textSize="40sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/numero_4"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="multi"
+                    android:text="@string/num_4"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/numero_5"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="div"
+                    android:text="@string/num_5"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/numero_6"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="div"
+                    android:text="@string/num_6"
+                    android:textSize="40sp" />
+                <Button
+                    android:id="@+id/resta"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="Rests"
+                    android:text="@string/menos"
+                    android:textSize="40sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/numero_1"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="multi"
+                    android:text="@string/num_1"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/numero_2"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="div"
+                    android:text="@string/num_2"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/numero_3"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:onClick="div"
+                    android:text="@string/num_3"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/suma"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="suma"
+                    android:text="@string/_mas"
+                    android:textSize="40sp" />
+
+            </TableRow>
+
+
+
 
         </TableLayout>
 
