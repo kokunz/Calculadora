@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mi primera calculadora</string>
+    <string name="_0">0</string>
+    <string name="_mas">+</string>
+    <string name="menos">-</string>
+    <string name="multi">*</string>
+    <string name="divi">/</string>
+    <string name="ingresa_el_valor_1">Ingresa el valor 1</string>
+    <string name="ingresa_el_valor_2">ingresa el valor 2</string>
+</resources>
